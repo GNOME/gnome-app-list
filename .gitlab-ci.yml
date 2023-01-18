@@ -1,0 +1,19 @@
+image: debian:unstable
+
+before_script:
+  - apt update -qq
+  - apt install -y -qq build-essential meson pkg-config appstream libxml2-utils
+  - export LANG=C.UTF-8
+
+build:
+  script:
+    - meson setup --buildtype debug --werror _build .
+    - ninja -C _build
+    - meson test -C _build
+  except:
+    - tags
+  artifacts:
+    when: on_failure
+    name: "gnome-app-list-_${CI_COMMIT_REF_NAME}"
+    paths:
+      - "${CI_PROJECT_DIR}/_build/meson-logs"
