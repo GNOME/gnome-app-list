@@ -1,36 +1,54 @@
 # GNOME app list
 
-This repository is a place to maintain a curated list of apps to feature or
-highlight in GNOME, particularly in
-[GNOME Software](https://gitlab.gnome.org/GNOME/gnome-software).
+This project provides app recommendation data for the GNOME project. This
+AppStream data is available across the system, and is mainly used by the
+[Software](https://gitlab.gnome.org/GNOME/gnome-software) app.
 
-The goals of the repository are to:
+The goals of the project are to:
 
-1. Decouple app curation from the maintenance and release cycle of gnome-software
-2. Provide an official curated list of apps from the GNOME project
-3. Coordinate curation efforts between different distributions
+1. Ensure that high-quality apps are recommended
+1. Ensure that the recommended apps are kept up to date
+1. Allow app recommendations to be maintained and released separately from gnome-software
 
 There is more context available in the discussion on
 [this issue](https://gitlab.gnome.org/GNOME/gnome-software/-/issues/1982#note_1633421).
 
-## Criteria for inclusion
+## Project overview
 
-To be eligible for inclusion, apps must:
- - be a member of [GNOME Circle](https://circle.gnome.org/) or one of the core
-   GNOME release modulesets; and
- - (if in a moduleset not GNOME Circle) follow all [the requirements of being a
-   member of GNOME Circle](https://gitlab.gnome.org/Teams/Releng/AppOrganization/-/blob/main/AppCriteria.md),
- - including [these additional proposed requirements](https://gitlab.gnome.org/Teams/Releng/AppOrganization/-/merge_requests/5).
+The most interesting parts of gnome-app-list are:
 
-## Process for adding to the list
+* `/data`: contains lists of apps which include configuration for how the apps
+  should be tagged
+  * `flathub-apps.txt`: recommended apps pulled from 
+     [Flathub](https://flathub.org)
+  * `gnome-apps.txt`: [GNOME Circle](https://gitlab.gnome.org/Teams/Circle/)
+     apps
+  * `other-apps.txt`: a manually curated set of apps (currently empty) 
+* `/scripts`:
+  * `update_apps.py`: updates the app lists based on data from Flathub and GNOME
+    Circle
+  * `xml_generator.py`: generates AppStream data from the app lists
 
-1. Determine that the app meets all the criteria above.
-2. Decide whether the app is to go in the
-   [‘curated’ or ‘featured’ list](https://gitlab.gnome.org/GNOME/gnome-software/-/blob/main/doc/vendor-customisation.md#featured-apps-and-editors-choice)
-3. Add a `<component>` for it to the relevant XML file, following existing examples.
-4. Open a [merge request](https://gitlab.gnome.org/pwithnall/gnome-app-list/-/merge_requests).
+## App tagging
 
-## Update list of apps from Flathub and GNOME
+Each of the files in the ``/data`` directory contains a list of apps. Each file
+also includes configuration for tags that are applied to each app. These tags
+are then translated to the outputted AppStream XML which is read by
+gnome-software, and determines where in the UI each app is shown.
+
+There are two types of tags: flags and categories.
+
+| Flag / Category    | Outputted XML tag                                                       | UI destination                                                | Minimum No. Required* |
+|--------------------|-------------------------------------------------------------------------|---------------------------------------------------------------|-----------------------|
+| flag: popular      | `<kudos><kudo>GnomeSoftware::popular</kudo></kudos>`                    | Banners on category pages, editor's picks on the Explore page | 1, 6 |
+| flag: featured     | `<custom><value key="GnomeSoftware::FeatureTile">True</value></custom>` | Banners on explore pages                                      | 5 |
+| category: featured | `<categories><category>Featured</category></categories>`                | Editor's picks on category pages                              | 3 |
+
+\* This is the number of apps that must be available to make the relevant UI section be visible in the Software app.
+
+See [vendor-customisation.md](https://gitlab.gnome.org/GNOME/gnome-software/-/blob/main/doc/vendor-customisation.md?ref_type=heads) for more details about metainfo tags.
+
+## How to update gnome-app-list
 
 To update `data/flathub-apps.txt` run:
 ```
@@ -42,4 +60,20 @@ To update `data/gnome-apps.txt` run:
 python3 ./scripts/update_apps.py gnome
 ```
 
-Run the script without argument or with both to update them at the same time.
+## How to test
+
+Some rough instructions for how to test how Software performs with a particular
+set of app data:
+
+1. Generate the AppStream XML locally from the app lists:
+  `python3 ./scripts/xml_generator.py data/flathub-apps.txt data/gnome-apps.txt data/other-apps.txt`.
+  This will generate `org.gnome.App-list.xml`.
+
+2. Create a VM with a recent version of GNOME
+
+3. Clear out the old app recommendations data:
+    * cd `/usr/share/swcatalog/xml/` and remove the XML files
+    * `rm -rf ~/.cache/gnome-software/`
+
+4. Add the newly generated XML from gnome-app-list to `/usr/share/swcatalog/xml/`
+5. Restart Software: `gnome-software --quit && gnome-software`
