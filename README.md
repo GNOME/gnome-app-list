@@ -30,3 +30,16 @@ To be eligible for inclusion, apps must:
 3. Add a `<component>` for it to the relevant XML file, following existing examples.
 4. Open a [merge request](https://gitlab.gnome.org/pwithnall/gnome-app-list/-/merge_requests).
 
+## Update list of apps from Flathub and GNOME
+
+To update `data/flathub-apps.txt` run:
+```
+python3 ./scripts/update_apps.py flathub
+```
+
+To update `data/gnome-apps.txt` run:
+```
+python3 ./scripts/update_apps.py gnome
+```
+
+Run the script without argument or with both to update them at the same time.

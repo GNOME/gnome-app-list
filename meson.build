@@ -5,13 +5,22 @@ project('gnome-app-list',
   license: 'LGPL-2.1-or-later',
 )
 
+prog_python = find_program('python3')
+
 app_lists = files(
-  'org.gnome.Apps.Curated.xml',
-  'org.gnome.Apps.Featured.xml',
+  'data/flathub-apps.txt',
+  'data/gnome-apps.txt',
+  'data/other-apps.txt',
 )
+
 swcatalogdir = get_option('datadir') / 'swcatalog' / 'xml'
 
-install_data(app_lists,
+generated_app_list = custom_target(
+  'org.gnome.App-list.xml',
+  output : 'org.gnome.App-list.xml',
+  input : 'scripts/xml_generator.py',
+  command : [prog_python, '@INPUT@', app_lists],
+  install : true,
   install_dir: swcatalogdir,
 )
 
@@ -22,6 +31,6 @@ if xmllint.found()
   test(
     'xmllint AppStream files',
     xmllint,
-    args: ['--nonet', '--noout'] + app_lists,
+    args: ['--nonet', '--noout'] + [generated_app_list.full_path()],
   )
 endif
