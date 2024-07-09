@@ -2,10 +2,12 @@ image: debian:unstable
 
 before_script:
   - apt update -qq
-  - apt install -y -qq build-essential meson pkg-config appstream libxml2-utils
+  - apt install -y -qq black build-essential flake8 git meson pkg-config appstream libxml2-utils
   - export LANG=C.UTF-8
 
 build:
+  variables:
+    LINT_WARNINGS_ARE_ERRORS: '1'
   script:
     - meson setup --buildtype debug --werror _build .
     - ninja -C _build
