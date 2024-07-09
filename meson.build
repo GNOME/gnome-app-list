@@ -6,6 +6,8 @@ project('gnome-app-list',
 )
 
 prog_python = find_program('python3')
+bash = find_program('bash', required : false)
+have_bash = bash.found()
 
 app_lists = files(
   'data/flathub-apps.txt',
@@ -34,3 +36,5 @@ if xmllint.found()
     args: ['--nonet', '--noout'] + [generated_app_list.full_path()],
   )
 endif
+
+subdir('tests')
