@@ -1,4 +1,4 @@
-# Generated on Fri Jun 28 15:57:24 2024
+# Generated on Tue Jul 30 15:54:14 2024
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 default-categories=Featured
@@ -7,6 +7,7 @@ app.drey.Biblioteca
 app.drey.Dialect
 app.drey.Doggo
 app.drey.Elastic
+app.drey.KeyRack
 app.drey.Warp
 com.boxy_svg.BoxySVG
 com.cassidyjames.butler
@@ -17,9 +18,13 @@ com.github.geigi.cozy
 com.github.hugolabe.Wike
 com.github.huluti.Curtail
 com.github.johnfactotum.Foliate
+com.github.neithern.g4music
 com.github.tchx84.Flatseal
 com.github.unrud.VideoDownloader
 com.github.vikdevelop.timer
+com.github.ztefn.haguichi
+com.jeffser.Alpaca
+com.lynnmichaelmartin.TimeTracker
 com.mardojai.ForgeSparks
 com.pojtinger.felicitas.Multiplex
 com.rafaelmardojai.Blanket
@@ -38,14 +43,15 @@ dev.bragefuglseth.Keypunch
 dev.geopjr.Calligraphy
 dev.geopjr.Collision
 dev.geopjr.Tuba
-dev.skynomads.Seabird
 dev.tchx84.Gameeky
 dev.zelikos.rollit
 fr.romainvigier.MetadataCleaner
 garden.jamie.Morphosis
 im.bernard.Memorado
+im.dino.Dino
 info.febvre.Komikku
 io.frama.tractor.carburetor
+io.github.amit9838.mousam
 io.github.bytezz.IPLookup
 io.github.cleomenezesjr.aurea
 io.github.david_swift.Flashcards
@@ -55,6 +61,8 @@ io.github.dlippok.photometric-viewer
 io.github.finefindus.Hieroglyphic
 io.github.fizzyizzy05.binary
 io.github.flattool.Warehouse
+io.github.idevecore.Valuta
+io.github.lo2dev.Echo
 io.github.mrvladus.List
 io.github.nokse22.Exhibit
 io.github.nokse22.asciidraw
@@ -74,6 +82,7 @@ io.gitlab.gregorni.Letterpress
 io.gitlab.liferooter.TextPieces
 io.gitlab.news_flash.NewsFlash
 io.gitlab.zehkira.Monophony
+me.sanchezrodriguez.passes
 net.codelogistics.webapps
 net.nokyan.Resources
 org.freedesktop.Bustle
@@ -83,6 +92,7 @@ org.gnome.DejaDup
 org.gnome.Extensions
 org.gnome.Fractal
 org.gnome.Podcasts
+org.gnome.Showtime
 org.gnome.Snapshot
 org.gnome.World.Citations
 org.gnome.World.Iotas
@@ -103,5 +113,6 @@ re.sonny.Tangram
 re.sonny.Workbench
 se.sjoerd.Graphs
 tv.kodi.Kodi
+xyz.safeworlds.hiit
 xyz.slothlife.Jogger
 xyz.tytanium.DoorKnocker

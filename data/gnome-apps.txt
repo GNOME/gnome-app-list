@@ -1,4 +1,4 @@
-# Generated on Fri Jun 28 15:57:24 2024
+# Generated on Tue Jul 30 15:54:53 2024
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 default-flags=popular
@@ -33,6 +33,7 @@ info.febvre.Komikku
 io.bassi.Amberol
 io.github.diegoivan.pdf_metadata_editor
 io.github.finefindus.Hieroglyphic
+io.github.idevecore.Valuta
 io.github.lainsce.Khronos
 io.github.mrvladus.List
 io.github.seadve.Mousai
