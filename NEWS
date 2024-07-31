@@ -1,0 +1,9 @@
+0.1
+===
+* Script for pulling data from GNOME Circle and Flathub
+* Script for generating XML from app lists
+* Updated app lists
+* Updated docs
+
+Contributors:
+  Philip Withnall, Allan Day, Tomas Votava
