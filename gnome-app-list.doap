@@ -8,12 +8,14 @@
 		<foaf:Person>
 			<foaf:name>Allan Day</foaf:name>
 			<foaf:mbox rdf:resource="mailto:allanpday@gmail.com"/>
+            <gnome:userid>allanday</gnome:userid>
 		</foaf:Person>
 	</maintainer>
 	<maintainer>
 		<foaf:Person>
 			<foaf:name>Philip Withnall</foaf:name>
 			<foaf:mbox rdf:resource="mailto:pwithnall@endlessos.org"/>
+            <gnome:userid>pwithnall</gnome:userid>
 		</foaf:Person>
 	</maintainer>
 </Project>
