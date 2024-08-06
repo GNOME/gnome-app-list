@@ -3,7 +3,7 @@
 
 project('gnome-app-list',
   license: 'LGPL-2.1-or-later',
-  version: '0.1',
+  version: '0.2',
 )
 
 prog_python = find_program('python3')
