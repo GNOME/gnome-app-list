@@ -5,9 +5,9 @@
          xmlns="http://usefulinc.com/ns/doap#">
 	<name xml:lang="en">GNOME App List</name>
 	<shortdesc xml:lang="en">A place to maintain a curated list of apps to feature or highlight in GNOME</shortdesc>
-	<homepage rdf:resource="https://gitlab.gnome.org/pwithnall/gnome-app-list"/>
+	<homepage rdf:resource="https://gitlab.gnome.org/GNOME/gnome-app-list"/>
 	<license rdf:resource="http://usefulinc.com/doap/licenses/lgpl"/>
-	<download-page rdf:resource="https://gitlab.gnome.org/pwithnall/gnome-app-list"/>
+	<download-page rdf:resource="https://gitlab.gnome.org/GNOME/gnome-app-list"/>
 	<maintainer>
 		<foaf:Person>
 			<foaf:name>Allan Day</foaf:name>
