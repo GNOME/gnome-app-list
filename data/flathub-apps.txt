@@ -1,4 +1,4 @@
-# Generated on Tue Jul 30 15:54:14 2024
+# Generated on Fri Sep 13 08:01:52 2024
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 default-categories=Featured
@@ -13,6 +13,7 @@ com.boxy_svg.BoxySVG
 com.cassidyjames.butler
 com.cassidyjames.plausible
 com.github.cassidyjames.clairvoyant
+com.github.cassidyjames.dippi
 com.github.flxzt.rnote
 com.github.geigi.cozy
 com.github.hugolabe.Wike
@@ -40,6 +41,7 @@ de.schmidhuberj.DieBahn
 de.wagnermartin.Plattenalbum
 dev.bragefuglseth.Fretboard
 dev.bragefuglseth.Keypunch
+dev.geopjr.Archives
 dev.geopjr.Calligraphy
 dev.geopjr.Collision
 dev.geopjr.Tuba
@@ -61,7 +63,9 @@ io.github.dlippok.photometric-viewer
 io.github.finefindus.Hieroglyphic
 io.github.fizzyizzy05.binary
 io.github.flattool.Warehouse
+io.github.getnf.embellish
 io.github.idevecore.Valuta
+io.github.lawstorant.boxflat
 io.github.lo2dev.Echo
 io.github.mrvladus.List
 io.github.nokse22.Exhibit
@@ -73,6 +77,7 @@ io.github.nokse22.trivia-quiz
 io.github.nokse22.ultimate-tic-tac-toe
 io.github.pieterdd.RcloneShuttle
 io.github.realmazharhussain.GdmSettings
+io.github.ronniedroid.concessio
 io.github.sigmasd.stimulator
 io.github.tfuxu.Halftone
 io.github.zefr0x.hashes
@@ -81,10 +86,10 @@ io.gitlab.elescoute.password
 io.gitlab.gregorni.Letterpress
 io.gitlab.liferooter.TextPieces
 io.gitlab.news_flash.NewsFlash
-io.gitlab.zehkira.Monophony
 me.sanchezrodriguez.passes
 net.codelogistics.webapps
 net.nokyan.Resources
+nl.emphisia.icon
 org.freedesktop.Bustle
 org.gaphor.Gaphor
 org.gnome.Crosswords
@@ -103,10 +108,12 @@ org.gnome.design.Lorem
 org.gnome.gitlab.cheywood.Buffer
 org.gnome.gitlab.somas.Apostrophe
 org.gnunet.Messenger
+org.kde.calligra
 org.learningequality.Kolibri
 org.simondalvai.ball2box
 org.turbowarp.TurboWarp
 page.kramo.Cartridges
+page.kramo.Sly
 re.sonny.Junction
 re.sonny.Retro
 re.sonny.Tangram

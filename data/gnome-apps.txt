@@ -1,4 +1,4 @@
-# Generated on Tue Jul 30 15:54:53 2024
+# Generated on Fri Sep 13 08:02:40 2024
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 default-flags=popular
@@ -28,6 +28,7 @@ de.schmidhuberj.DieBahn
 dev.Cogitri.Health
 dev.bragefuglseth.Fretboard
 dev.geopjr.Collision
+dev.geopjr.Tuba
 fr.romainvigier.MetadataCleaner
 info.febvre.Komikku
 io.bassi.Amberol
@@ -42,6 +43,7 @@ io.gitlab.adhami3310.Impression
 io.gitlab.gregorni.Letterpress
 io.gitlab.liferooter.TextPieces
 io.gitlab.news_flash.NewsFlash
+net.nokyan.Resources
 org.gaphor.Gaphor
 org.gnome.Decibels
 org.gnome.DejaDup
