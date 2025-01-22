@@ -51,12 +51,12 @@ See [vendor-customisation.md](https://gitlab.gnome.org/GNOME/gnome-software/-/bl
 
 ## How to update gnome-app-list
 
-To update `data/flathub-apps.txt` run:
+To update `data/flathub-apps.txt` run in the project root:
 ```
 python3 ./scripts/update_apps.py flathub
 ```
 
-To update `data/gnome-apps.txt` run:
+To update `data/gnome-apps.txt` run in the project root:
 ```
 python3 ./scripts/update_apps.py gnome
 ```

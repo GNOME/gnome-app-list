@@ -10,12 +10,12 @@ from pathlib import Path
 
 FLATHUB_URL = "flathub.org"
 JSON_FLATHUB_PATH = "/api/v2/quality-moderation/" "passing-apps?page={0}&page_size=25"
-LOCAL_FLATHUB_FILE = "../data/flathub-apps.txt"
+LOCAL_FLATHUB_FILE = "data/flathub-apps.txt"
 
 
 GNOME_URL = "gitlab.gnome.org"
 JSON_GNOME_PATH = "/Teams/Circle/-/raw/main/data/apps.json"
-LOCAL_GNOME_FILE = "../data/gnome-apps.txt"
+LOCAL_GNOME_FILE = "data/gnome-apps.txt"
 
 VALID_ARGUMENTS: set[str] = {"gnome", "flathub"}
 
