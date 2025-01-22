@@ -1,4 +1,4 @@
-# Generated on Fri Sep 13 08:02:40 2024
+# Generated on Wed Jan 22 11:21:13 2025
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 default-flags=popular
@@ -10,7 +10,6 @@ app.drey.Warp
 com.belmoussaoui.Authenticator
 com.belmoussaoui.Decoder
 com.belmoussaoui.Obfuscate
-com.clarahobbs.chessclock
 com.feaneron.Boatswain
 com.github.ADBeveridge.Raider
 com.github.cassidyjames.clairvoyant
@@ -29,13 +28,14 @@ dev.Cogitri.Health
 dev.bragefuglseth.Fretboard
 dev.geopjr.Collision
 dev.geopjr.Tuba
+eu.fortysixandtwo.chessclock
 fr.romainvigier.MetadataCleaner
 info.febvre.Komikku
 io.bassi.Amberol
 io.github.diegoivan.pdf_metadata_editor
 io.github.finefindus.Hieroglyphic
+io.github.fizzyizzy05.binary
 io.github.idevecore.Valuta
-io.github.lainsce.Khronos
 io.github.mrvladus.List
 io.github.seadve.Mousai
 io.gitlab.adhami3310.Converter
