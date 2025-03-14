@@ -1,4 +1,4 @@
-# Generated on Wed Jan 22 11:21:13 2025
+# Generated on Fri Mar 14 12:20:00 2025
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 default-flags=popular
@@ -10,9 +10,9 @@ app.drey.Warp
 com.belmoussaoui.Authenticator
 com.belmoussaoui.Decoder
 com.belmoussaoui.Obfuscate
+com.cassidyjames.clairvoyant
 com.feaneron.Boatswain
 com.github.ADBeveridge.Raider
-com.github.cassidyjames.clairvoyant
 com.github.finefindus.eyedropper
 com.github.hugolabe.Wike
 com.github.huluti.Curtail
@@ -26,10 +26,10 @@ de.haeckerfelix.Shortwave
 de.schmidhuberj.DieBahn
 dev.Cogitri.Health
 dev.bragefuglseth.Fretboard
+dev.bragefuglseth.Keypunch
 dev.geopjr.Collision
 dev.geopjr.Tuba
 eu.fortysixandtwo.chessclock
-fr.romainvigier.MetadataCleaner
 info.febvre.Komikku
 io.bassi.Amberol
 io.github.diegoivan.pdf_metadata_editor
@@ -37,6 +37,7 @@ io.github.finefindus.Hieroglyphic
 io.github.fizzyizzy05.binary
 io.github.idevecore.Valuta
 io.github.mrvladus.List
+io.github.revisto.drum-machine
 io.github.seadve.Mousai
 io.gitlab.adhami3310.Converter
 io.gitlab.adhami3310.Impression
@@ -51,6 +52,7 @@ org.gnome.Podcasts
 org.gnome.Polari
 org.gnome.Solanum
 org.gnome.World.Citations
+org.gnome.World.Iotas
 org.gnome.World.PikaBackup
 org.gnome.World.Secrets
 org.gnome.design.Emblem
@@ -64,3 +66,4 @@ re.sonny.Junction
 re.sonny.Tangram
 re.sonny.Workbench
 se.sjoerd.Graphs
+xyz.safeworlds.hiit

@@ -1,4 +1,4 @@
-# Generated on Wed Jan 22 11:19:36 2025
+# Generated on Fri Mar 14 12:19:38 2025
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 default-categories=Featured
@@ -14,11 +14,11 @@ ca.vlacroix.Tally
 com.belmoussaoui.Decoder
 com.boxy_svg.BoxySVG
 com.cassidyjames.butler
+com.cassidyjames.clairvoyant
 com.cassidyjames.plausible
 com.dz4k.FruitCredits
 com.endlessnetwork.fablemaker
 com.github.ADBeveridge.Raider
-com.github.cassidyjames.clairvoyant
 com.github.cassidyjames.dippi
 com.github.finefindus.eyedropper
 com.github.flxzt.rnote
@@ -40,12 +40,13 @@ com.konstantintutsch.Lock
 com.lynnmichaelmartin.TimeTracker
 com.mardojai.ForgeSparks
 com.obsproject.Studio
+com.play0ad.zeroad
 com.pojtinger.felicitas.Multiplex
 com.rafaelmardojai.Blanket
 com.rafaelmardojai.SharePreview
 com.ranfdev.Geopard
-com.slack.Slack
 com.toolstack.Folio
+com.usebottles.bottles
 cz.krupkat.Xpano
 de.gonicus.gonnect
 de.haeckerfelix.AudioSharing
@@ -64,6 +65,7 @@ dev.geopjr.Archives
 dev.geopjr.Calligraphy
 dev.geopjr.Collision
 dev.geopjr.Tuba
+dev.qwery.AddWater
 dev.serebit.Waycheck
 dev.tchx84.Gameeky
 dev.zelikos.rollit
@@ -86,17 +88,19 @@ io.github.diegopvlk.Dosage
 io.github.dlippok.photometric-viewer
 io.github.dzheremi2.lrcmake-gtk
 io.github.efogdev.mpris-timer
+io.github.fabrialberio.pinapp
 io.github.finefindus.Hieroglyphic
 io.github.fizzyizzy05.binary
 io.github.flattool.Ignition
 io.github.flattool.Warehouse
 io.github.getnf.embellish
 io.github.giantpinkrobots.varia
+io.github.hamza_algohary.Coulomb
 io.github.idevecore.Valuta
 io.github.josephmawa.Bella
+io.github.josephmawa.Egghead
 io.github.kelvinnovais.Kasasa
 io.github.kotatogram
-io.github.lawstorant.boxflat
 io.github.lo2dev.Echo
 io.github.mrvladus.List
 io.github.nokse22.Exhibit
@@ -108,6 +112,7 @@ io.github.nokse22.trivia-quiz
 io.github.philippkosarev.bmi
 io.github.pieterdd.RcloneShuttle
 io.github.realmazharhussain.GdmSettings
+io.github.revisto.drum-machine
 io.github.ronniedroid.concessio
 io.github.seadve.Mousai
 io.github.sigmasd.stimulator
@@ -123,14 +128,18 @@ io.gitlab.liferooter.TextPieces
 io.gitlab.news_flash.NewsFlash
 io.gitlab.theevilskeleton.Upscaler
 io.missioncenter.MissionCenter
+me.iepure.Ticketbooth
 me.iepure.devtoolbox
 me.sanchezrodriguez.passes
 me.sergiotarxz.Exd
-me.sergiotarxz.JapaChar
 menu.kando.Kando
 net.codelogistics.webapps
+net.hhoney.candy
+net.hhoney.rota
 net.hhoney.tinycrate
 net.krafting.HexColordle
+net.krafting.Playlifin
+net.krafting.PlaylifinVoyager
 net.mkiol.Jupii
 net.nokyan.Resources
 nl.emphisia.icon
@@ -161,6 +170,7 @@ org.gnunet.Messenger
 org.kde.audiotube
 org.kde.calligra
 org.kde.marknote
+org.kde.neochat
 org.kde.tokodon
 org.learningequality.Kolibri
 org.libvips.vipsdisp
@@ -170,11 +180,14 @@ org.turbowarp.TurboWarp
 page.kramo.Cartridges
 page.kramo.Sly
 page.tesk.Refine
+re.sonny.Eloquent
 re.sonny.Junction
+re.sonny.OhMySVG
 re.sonny.Retro
 re.sonny.Tangram
 re.sonny.Workbench
 se.sjoerd.Graphs
+space.gaiasky.GaiaSky
 space.rirusha.Cassette
 tv.kodi.Kodi
 xyz.safeworlds.hiit
