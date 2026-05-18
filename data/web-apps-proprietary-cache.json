@@ -1,0 +1,376 @@
+{
+  "input_checksum": "4ffa4f8508846104fd3556aa6124971277184c499f2d3e6a7840257a822b9600",
+  "apps": [
+    {
+      "name": "X",
+      "summary": "From breaking news and entertainment to sports and politics, get the full story ",
+      "adaptive": true,
+      "categories": [
+        "Network",
+        "Chat"
+      ],
+      "locale": {
+        "ar": {
+          "summary": "من الأخبار العاجلة حتى الترفيه إلى الرياضة والسياسة، احصل على القصة كاملة مع الت",
+          "description": "احصل على الأخبار العاجلة وأخبار السياسة والموسيقى الشائعة والأحداث العالمية والنتائج الرياضية وآخر الأخبار العالمية فور حدوثها - كل ذلك ببيانات أقل."
+        },
+        "bg": {
+          "summary": "От горещи новини и развлечения до спорт и политика – научавай пълните истории с ",
+          "description": "Получавай актуални новини, политика, популярна музика, събития по света, спортни резултати и последни глобални новини още докато се случват – всичко това с по-малко данни."
+        },
+        "bn": {
+          "summary": "ব্রেকিং নিউজ এবং বিনোদন থেকে ক্রীড়া এবং রাজনীতি সব ক্ষেত্রের লাইভ ধারাভাষ্যের স",
+          "description": "সামান্য ডেটার সাহায্যে - তাজা খবর, রাজনীতি, প্রচলিত মিউজিক, বিশ্বের ঘটনাগুলো, খেলার স্কোর এবং সাম্প্রতিক বিশ্ব খবরের গল্পগুলো প্রকাশিত হওয়ার সাথে সাথে জেনে নিন।"
+        },
+        "ca": {
+          "summary": "Assabenta't de tot amb els comentaris en directe, tant de les notícies d'última ",
+          "description": "Rep notícies d'última hora, novetats sobre afers polítics, música que és tendència, esdeveniments mundials i resultats esportius i assabenta't de com va el món en temps real i gastant menys dades."
+        },
+        "ca-valencia": {
+          "summary": "Assabenta't de tot amb els comentaris en directe, tant de les notícies d'última ",
+          "description": "Rep notícies d'última hora, novetats sobre afers polítics, música que és tendència, esdeveniments mundials i resultats esportius i assabenta't de com va el món en temps real i gastant menys dades."
+        },
+        "cs": {
+          "summary": "Ať už vás zajímá zpravodajství, zábava, sport nebo politika, tady najdete nejčer",
+          "description": "Získávejte nejnovější zprávy o politice, oblíbené hudbě, světových událostech, sportovních výsledcích a dalších novinkách z celého světa hned, jak budou k dispozici – to vše s menší spotřebou dat."
+        },
+        "da": {
+          "summary": "Fra breaking news og underholdning til sport og politik - få hele historien med ",
+          "description": "Få breaking news, politik, musiktendenser, verdensbegivenheder, sportsresultater og de seneste globale nyheder, mens det sker – alt sammen med mindre data."
+        },
+        "de": {
+          "summary": "Von aktuellen Nachrichten und Unterhaltung zu Sport und Politik: Erfahre die gan",
+          "description": "Aktuelle Meldungen, Politik, Musiktrends, weltweite Ereignisse, Sportergebnisse und die neuesten Nachrichten aus aller Welt – und das bei geringerem Datenverbrauch."
+        },
+        "el": {
+          "summary": "Από έκτακτες ειδήσεις και ψυχαγωγία μέχρι αθλητικά και πολιτική, ενημερωθείτε πλ",
+          "description": "Λάβετε έκτακτες ειδήσεις, πολιτικές ειδήσεις, δημοφιλή μουσική, διεθνείς εκδηλώσεις, αθλητικά σκορ και τα πιο πρόσφατα διεθνή ειδησεογραφικά άρθρα τη στιγμή που διατίθενται. Όλα αυτά με λιγότερα δεδομένα."
+        },
+        "es": {
+          "summary": "Desde las últimas noticias hasta temas de entretenimiento, deportes y política: ",
+          "description": "Obtén las últimas noticias sobre política, tendencias de música, eventos mundiales, resultados deportivos y las últimas noticias internacionales en tiempo real, y todo esto usando menos datos."
+        },
+        "fa": {
+          "summary": "از اخبار فوری و سرگرمی‌ها تا ورزش و سیاست، داستان کامل را با گزارش زنده دریافت ک",
+          "description": "آخرین اخبار، مطالب سیاسی، موسیقی‌های پرطرفدار، رویدادهای جهان، نتایج ورزشی، و جدیدترین اخبار جهان را بلافاصله پس از پخش دریافت کنید - و همه را هم با مصرف اینترنت کمتر."
+        },
+        "fi": {
+          "summary": "Näe koko tarina live-kommentein höystettynä tuoreimmista uutisista ja viihteestä",
+          "description": "Näe uutisotsikot, politiikan ja musiikin trendit, tapahtumat, urheilutulokset ja maailman kärkiuutiset tuoreeltaan vähemmällä datankäytöllä."
+        },
+        "fil": {
+          "summary": "Mula sa mga nagbabagang balita hanggang sa entertainment hanggang sa sports at p",
+          "description": "Makakuha ng mga nagbabagang balita, pulitika, trending na musika, mga event sa buong mundo, mga score sa sports, at mga pinakabagong balita sa buong mundo habang nagaganap ang mga ito - lahat ng ito sa kaunting data."
+        },
+        "fr": {
+          "summary": "Des dernières actualités et des divertissements aux sports et à la politique, ac",
+          "description": "L'actu, la politique, la musique branchée, les événements internationaux, les résultats sportifs et les dernières nouvelles du monde en temps réel… le tout avec moins de données."
+        },
+        "he": {
+          "summary": "מחדשות ובידור ועד ספורט ופוליטיקה, קבל את הסיפור המלא עם כל הפרשנויות בשידור חי",
+          "description": "קבל חדשות עדכניות, סיפורים על פוליטיקה, מוזיקה פופולרית, אירועים עולמיים, תוצאות של אירועי ספורט והסיפורים החדשים ביותר מהחדשות העולמיות בזמן שהם מתחרשים - הכול עם פחות נתונים."
+        },
+        "hi": {
+          "summary": "ब्रेकिंग न्यूज़ और मनोरंजन से लेकर खेल और राजनीति तक, पूरी जानकारी लाइव कमेंटरी ",
+          "description": "ब्रेकिंग न्यूज़, राजनीति, रुझान में चल रहे म्यूज़िक, दुनिया में हो रहे इवेंट्स, स्पोर्ट्स स्कोर और नवीनतम वैश्विक समाचारों के बारे में उसी समय जानें जब वे घट रहे हैं - वो भी कम डेटा का इस्तेमाल करके."
+        },
+        "hr": {
+          "summary": "Od udarnih vijesti i zabave do sporta i politike – saznajte cijelu priču uz sve ",
+          "description": "Saznajte najnovije vijesti i svjetske novosti s područja politike, popularne glazbe, svjetskih događaja i sportskih rezultata u stvarnom vremenu, uz što manje preuzetih podataka."
+        },
+        "hu": {
+          "summary": "A legfrissebb hírektől és szórakoztató újdonságoktól a sportközvetítéseken át a ",
+          "description": "Tekintsd meg a friss híreket, a politika világának újdonságait, a népszerű zenéket, nemzetközi eseményeket, sporteredményeket és a legújabb globális sztorikat – mindezt kisebb adatforgalommal."
+        },
+        "id": {
+          "summary": "Dari berita terkini dan hiburan hingga olahraga dan politik, baca kisah lengkapn",
+          "description": "Dapatkan berita terkini, politik, musik yang sedang tren, peristiwa dunia, skor olahraga, dan berita global terbaru saat itu juga - dengan lebih hemat data."
+        },
+        "it": {
+          "summary": "Dalle notizie dell'ultima ora allo spettacolo, alla politica e allo sport, segui",
+          "description": "Ricevi istantaneamente le notizie dell'ultima ora, gli aggiornamenti dalla politica, la musica di tendenza, gli eventi dal mondo, i risultati sportivi e i bollettini di cronaca internazionale. Tutto questo utilizzando meno traffico dati."
+        },
+        "ja": {
+          "summary": "ニュース速報、エンタメ情報、スポーツ、政治まで、リアルタイムでフォローできます。",
+          "description": "ニュース速報、政治、音楽トレンド、世界の出来事、スポーツ結果、世界の最新ニュースについての記事を、少ないデータ通信量ですぐに入手できます。"
+        },
+        "ko": {
+          "summary": "뉴스 속보와 엔터테인먼트부터 스포츠와 정치까지, 실시간 코멘터리와 함께 이야기의 전말을 확인해 보세요",
+          "description": "뉴스 속보, 정치, 유행하는 음악, 전 세계에서 벌어지는 이벤트와 스포츠 경기 득점 결과까지, 최신 글로벌 뉴스 기사를 실시간으로, 그리고 더 적은 데이터로 확인하세요."
+        },
+        "ms": {
+          "summary": "Daripada berita terkini dan hiburan hinggalah kepada sukan dan politik, dapatkan",
+          "description": "Dapatkan berita gempar, politik, muzik yang menjadi trend, peristiwa besar dunia, skor sukan dan berita dunia yang terkini dalam masa nyata - semuanya tanpa menggunakan banyak data."
+        },
+        "nb": {
+          "summary": "Fra siste nytt og underholdning til sport og politikk – få med deg alt med fortl",
+          "description": "Få siste nytt om politikk, ny musikk, store hendelser og sportsresultater samt de siste globale nyhetene etter hvert som de oppstår – alt med mindre data."
+        },
+        "nl": {
+          "summary": "Van het laatste nieuws en entertainment tot sport en politiek, je leest het hele",
+          "description": "Je bent onmiddellijk op de hoogte van het laatste nieuws, politiek, trending muziek, wereldgebeurtenissen, sportuitslagen en wereldwijde nieuwsverhalen, en dat allemaal met minder data."
+        },
+        "pl": {
+          "summary": "Od najświeższych wiadomości i rozrywki po sport i politykę – zobacz całość wydar",
+          "description": "Najświeższe wiadomości, świat polityki, nowości muzyczne, wyniki rozgrywek sportowych i najważniejsze informacje ze świata w czasie rzeczywistym – a to wszystko przy mniejszym zużyciu danych."
+        },
+        "pt": {
+          "summary": "De últimas notícias a entretenimento, esportes e política, receba as histórias c",
+          "description": "Receba notícias de última hora, política, músicas em alta, eventos mundo afora, placares esportivos e histórias vindas de todo o planeta à medida que se desdobram – tudo com menos dados."
+        },
+        "pt-BR": {
+          "summary": "De últimas notícias a entretenimento, esportes e política, receba as histórias c",
+          "description": "Receba notícias de última hora, política, músicas em alta, eventos mundo afora, placares esportivos e histórias vindas de todo o planeta à medida que se desdobram – tudo com menos dados."
+        },
+        "ro": {
+          "summary": "De la știri de ultimă oră și divertisment la sport și politică, afli toate detal",
+          "description": "Obține știri de ultimă oră, precum și știri despre politică, muzică în vogă, evenimente ale lumii, scoruri din sport și cele mai recente știri internaționale, pe măsură ce apar – totul cu mai puține date."
+        },
+        "ru": {
+          "summary": "Главные новости, развлечения, спорт и политика — узнавайте обо всем и читайте ко",
+          "description": "Читайте свежайшие новости о политике, музыке, мировых событиях, спорте и многом другом, используя при этом меньше трафика."
+        },
+        "sk": {
+          "summary": "Od aktuálnych správ a zábavy až po šport a politiku – získajte komplexný obraz s",
+          "description": "Sledujte najnovšie správy, politiku, trendovú hudbu, svetové udalosti, športové výsledky a najnovšie správy zo sveta v reálnom čase. To všetko s menším množstvom údajov."
+        },
+        "sr-Cyrl": {
+          "summary": "Од најновијих вести и забаве до спорта и политике, сазнај читаву причу са свим к",
+          "description": "Добијај ударне вести, новости о политици, музици у тренду и догађајима широм света, спортске резултате и најновије глобалне новинске приче – а све то уз мању потрошњу података."
+        },
+        "sr-Latn": {
+          "summary": "Од најновијих вести и забаве до спорта и политике, сазнај читаву причу са свим к",
+          "description": "Добијај ударне вести, новости о политици, музици у тренду и догађајима широм света, спортске резултате и најновије глобалне новинске приче – а све то уз мању потрошњу података."
+        },
+        "sv": {
+          "summary": "Allt från de senaste nyheterna och underhållning till sport och politik: du får ",
+          "description": "Bli informerad om senaste nytt, politik, musik som trendar, världshändelser, idrottsresultat och de senaste globala nyhetsberättelserna medan de pågår – allt med mindre data."
+        },
+        "th": {
+          "summary": "นับตั้งแต่ข่าวด่วนและข่าวบันเทิงไปจนถึงข่าวกีฬาและการเมือง รับรู้เรื่องราวทั้งหม",
+          "description": "รับข่าวด่วน ข่าวการเมือง เพลงที่กำลังเป็นที่นิยม อีเวนต์ระดับโลก คะแนนกีฬา และข่าวสารล่าสุดทั่วโลกได้ทั้งหมดโดยใช้ข้อมูลน้อยลง"
+        },
+        "tr": {
+          "summary": "Flaş haberlerden eğlenceye, spordan politikaya, haberin tamamını canlı yorumlarl",
+          "description": "Son haberleri, siyasi olayları, gündemdeki şarkıları, dünyada olup bitenleri, spor sonuçlarını ve küresel haberleri henüz yaşanırken, üstelik de daha az veri kullanarak takip edin."
+        },
+        "uk": {
+          "summary": "Від екстрених новин і розваг до спортивних подій і політики. Будьте в курсі всіх",
+          "description": "Дізнавайтесь екстрені новини, політичні перипетії, популярну музику, світові події, спортивні результати та найсвіжіші світові новини в реальному часі – економлячи трафік."
+        },
+        "vi": {
+          "summary": "Từ những tin tức và giải trí nổi bật đến thể thao và chính trị, nhận đầy đủ thôn",
+          "description": "Nhận tin tức mới, chính trị, âm nhạc đang thịnh hành, sự kiện thế giới, tỉ số thể thao và câu chuyện tin tức toàn cầu mới nhất khi chưa được công bố - tất cả với ít dữ liệu hơn."
+        }
+      },
+      "description": "Get breaking news, politics, trending music, world events, sports scores, and the latest global news stories as they unfold - all with less data.",
+      "icon": {
+        "src": "https://abs.twimg.com/responsive-web/client-web/icon-default-large.9ab12c3a.png",
+        "width": "512",
+        "height": "512"
+      },
+      "url": "https://twitter.com/",
+      "license": "LicenseRef-proprietary",
+      "oars": {
+        "social-info": "intense",
+        "social-audio": "moderate"
+      }
+    },
+    {
+      "name": "Photopea",
+      "summary": "Photopea Online Photo Editor lets you edit photos, apply effects, filters, add t",
+      "adaptive": true,
+      "categories": [
+        "Graphics"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://www.photopea.com/promo/icon512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "url": "https://www.photopea.com/",
+      "license": "LicenseRef-proprietary",
+      "oars": {
+        "social-info": "intense"
+      }
+    },
+    {
+      "name": "Todoist",
+      "summary": "Trusted by 30 million people and teams. Todoist is the world's favorite task man",
+      "adaptive": true,
+      "categories": [
+        "Office"
+      ],
+      "locale": {
+        "de": {
+          "summary": "30 Millionen Menschen, ob im Team oder allein, vertrauen auf Todoist – den weltw"
+        },
+        "es": {
+          "summary": "Con la confianza de 30 millones de personas y equipos, Todoist es el administrad"
+        },
+        "fr": {
+          "summary": "30 millions de personnes et d'équipes ont adopté la to do list et le task manage"
+        },
+        "it": {
+          "summary": "Scelta da oltre 30 milioni di persone e team, Todoist è l'app di task manager e "
+        },
+        "ja": {
+          "summary": "世界中で 3,000 万人以上の人々やチームが愛用する「タスク& ToDo リスト」アプリのTodoist。念願だった集中する時間、心の平穏、整った生活を手に入"
+        },
+        "ko": {
+          "summary": "3천만명의 사람들과 팀이 신뢰하는 Todoist는 세계에서 가장 사랑받는 작업 관리자이자 할일 목록 앱입니다. 체계적으로, 차분하게 일처리가 가"
+        },
+        "nl": {
+          "summary": "Vertrouwd door 30 miljoen mensen en teams. Todoist is 's werelds favoriete task "
+        },
+        "pt-BR": {
+          "summary": "30 milhões de pessoas e equipes confiam no Todoist, o gerenciador de tarefas e t"
+        },
+        "ru": {
+          "summary": "Todoist — популярный таск-менеджер и приложение для списков дел, которому доверя"
+        }
+      },
+      "icon": {
+        "src": "https://todoist.com/static/android-chrome-256x256.png",
+        "width": "256",
+        "height": "256"
+      },
+      "url": "https://todoist.com/",
+      "license": "LicenseRef-proprietary",
+      "oars": {
+        "social-info": "moderate"
+      }
+    },
+    {
+      "name": "Pinterest",
+      "summary": "Discover recipes, home ideas, style inspiration and other ideas to try",
+      "adaptive": true,
+      "categories": [
+        "Graphics"
+      ],
+      "locale": {
+        "ar": {
+          "summary": "اكتشف وجرب الوصفات والأفكار المتعلقة بالمنزل والإطلالات الملهمة وغيرها من الأفكا"
+        },
+        "bn": {
+          "summary": "চেষ্টা করতে রেসিপি, হোম আইডিয়া, নানা শৈলী সম্পর্কে অনুপ্রেরণা এবং অন্যান্য ধারণ"
+        },
+        "cs": {
+          "summary": "Objevte recepty, rady pro domácnost, stylovou inspiraci nebo další nápady, které"
+        },
+        "da": {
+          "summary": "Find opskrifter, idéer til hjemmet, stilinspiration og andre idéer, du kan prøve"
+        },
+        "de": {
+          "summary": "Entdecke Rezepte, Einrichtungsideen, Stilinterpretationen und andere Ideen zum A"
+        },
+        "el": {
+          "summary": "Ανακαλύψτε συνταγές, ιδέες για το σπίτι, προτάσεις στυλ και πολλές ακόμα ιδέες γ"
+        },
+        "es": {
+          "summary": "Descubre recetas, inspiración para tu hogar, recomendaciones de estilo y otras i"
+        },
+        "fi": {
+          "summary": "Ota talteen reseptit, sisustus- ja tyylivinkit ja muut inspiroivat ideat"
+        },
+        "fil": {
+          "summary": "Tumuklas ng mga recipe, ideya sa bahay, inspirasyon ng istilo at iba pang ideya "
+        },
+        "fr": {
+          "summary": "Trouvez des inspirations et idées pratiques pour tous vos projets au quotidien s"
+        },
+        "he": {
+          "summary": "גלו מתכונים, רעיונות לבית, השראה לעיצוב ורעיונות אחרים לנסות"
+        },
+        "hi": {
+          "summary": "आज़माने के लिए रेसिपी, घर से संबंधित सुझाव, शैली प्रेरणा और अन्य सुझाव ढूँढ़ें।"
+        },
+        "hu": {
+          "summary": "Felfedezhetsz recepteket, lakberendezési ötleteket, stílustanácsokat és más tipp"
+        },
+        "id": {
+          "summary": "Temukan resep, ide rumah, inspirasi gaya, dan ide lain untuk dicoba"
+        },
+        "it": {
+          "summary": "Scopri ricette, idee per la casa, consigli di stile e altre idee da provare"
+        },
+        "ja": {
+          "summary": "レシピやインテリア、ファッションコーデなど試したくなるアイデアを発見しましょう。"
+        },
+        "ko": {
+          "summary": "요리법, 집 꾸미기 아이디어, 영감을 주는 스타일 등 시도해 볼 만한 아이디어를 찾아서 저장하세요"
+        },
+        "ms": {
+          "summary": "Terokai resipi, idea hiasan rumah, inspirasi gaya dan idea lain untuk dicuba"
+        },
+        "nb": {
+          "summary": "Oppdag oppskrifter, innredningstips, stilinspirasjon og andre ideer du kan prøve"
+        },
+        "nl": {
+          "summary": "Ontdek recepten, ideeën voor thuis, stijlinspiratie en andere ideeën om uit te p"
+        },
+        "pl": {
+          "summary": "Odkrywaj przepisy, pomysły do domu, inspiracje stylistyczne oraz inne pomysły do"
+        },
+        "pt": {
+          "summary": "Descubra receitas, dicas para a casa, inspirações para o seu estilo e outras ide"
+        },
+        "pt-BR": {
+          "summary": "Descubra receitas, dicas para a casa, inspirações para o seu estilo e outras ide"
+        },
+        "ro": {
+          "summary": "Descoperă rețete, idei pentru casă, stiluri care te inspiră și alte idei pe care"
+        },
+        "ru": {
+          "summary": "Находите рецепты, советы по дизайну жилья, собственному стилю и другие идеи"
+        },
+        "sk": {
+          "summary": "Objavte recepty, rady pre domácnosť, štýlové inšpirácie a ďalšie nápady, ktoré m"
+        },
+        "sv": {
+          "summary": "Upptäck recept, heminredningstips, stilinspiration och annat som du vill prova"
+        },
+        "te": {
+          "summary": "ప్రయత్నించడానికి వంటకాలు, ఇంటి ఆలోచనలు, శైలి ప్రేరణ మరియు ఇతర ఆలోచనలను కనుగొనండి"
+        },
+        "th": {
+          "summary": "ค้นพบสูตรอาหาร ไอเดียแต่งบ้าน แรงบันดาลใจด้านแฟชั่น และไอเดียอีกมากให้ลอง"
+        },
+        "tr": {
+          "summary": "Yemek tarifleri, ev fikirleri, stil ilhamları ve deneyebileceğiniz başka fikirle"
+        },
+        "uk": {
+          "summary": "Знаходьте рецепти, ідеї щодо дизайну оселі, вибору власного стилю тощо"
+        },
+        "vi": {
+          "summary": "Khám phá các công thức nấu ăn, ý tưởng nhà ở, cảm hứng phong cách và những ý tưở"
+        },
+        "zh-Hans-CN": {
+          "summary": "发现想要尝试的食谱、家居创意、时尚灵感及其他创意点子。"
+        },
+        "zh-Hant-HK": {
+          "summary": "发现想要尝试的食谱、家居创意、时尚灵感及其他创意点子。"
+        },
+        "zh-Hant-TW": {
+          "summary": "發掘並嘗試食譜、居家妙點子、時尚靈感和其他內容。"
+        }
+      },
+      "icon": {
+        "src": "https://s.pinimg.com/images/favicon_red_192.png",
+        "width": "192",
+        "height": "192"
+      },
+      "url": "https://www.pinterest.com/",
+      "license": "LicenseRef-proprietary",
+      "oars": {
+        "drugs-alcohol": "mild",
+        "sex-nudity": "mild",
+        "sex-themes": "mild",
+        "social-chat": "intense",
+        "social-info": "moderate",
+        "money-advertising": "intense"
+      }
+    }
+  ]
+}

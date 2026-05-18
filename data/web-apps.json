@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://pinafore.social/",
+    "license": "AGPL-3.0-only",
+    "oars": { "social-audio": "intense", "social-info": "none" },
+    "categories": ["Network", "Chat"]
+  },
+  {
+    "url": "https://squoosh.app/",
+    "license": "Apache-2.0",
+    "oars": { "social-info": "moderate" },
+    "categories": ["Graphics"]
+  },
+  {
+    "url": "https://excalidraw.com/",
+    "license": "MIT",
+    "oars": { "social-info": "moderate" },
+    "categories": ["Graphics", "Office"]
+  },
+  {
+    "url": "https://app.element.io/",
+    "license": "Apache-2.0",
+    "summary": "Secure and decentralised messaging and collaboration using Matrix",
+    "oars": { "social-info": "mild" },
+    "categories": ["Network", "Chat"]
+  },
+  {
+    "url": "https://chitchatter.im/",
+    "license": "MIT",
+    "oars": { "social-chat": "intense", "social-info": "moderate" },
+    "categories": ["Network", "Chat"]
+  },
+  {
+    "url": "https://www.booksie.org/",
+    "license": "GPL-3.0-only",
+    "oars": {},
+    "categories": ["Education"]
+  },
+  {
+    "url": "https://morsedecoder.com/",
+    "license": "MIT",
+    "oars": {},
+    "categories": ["Utility"]
+  },
+  {
+    "url": "https://splittypie.com",
+    "license": "MIT",
+    "oars": {},
+    "categories": ["Office", "Finance"]
+  },
+  {
+    "url": "https://swahili-dictionary.com/",
+    "license": "Apache-2.0",
+    "name": "MobiTUKI English-Swahili Dictionary",
+    "oars": {},
+    "categories": ["Education"]
+  },
+  {
+    "url": "https://pixelcraft.web.app",
+    "license": "MIT",
+    "oars": {},
+    "categories": ["Graphics"]
+  },
+  {
+    "url": "https://moneytracker.cc/",
+    "license": "MIT",
+    "oars": {},
+    "categories": ["Office", "Finance"]
+  },
+  {
+    "url": "https://themer.dev",
+    "license": "MIT",
+    "oars": {},
+    "categories": ["Development", "Utility"]
+  },
+  {
+    "url": "https://lofimusic.app/",
+    "license": "MIT",
+    "oars": {},
+    "categories": ["Audio", "Music"]
+  }
+]

@@ -24,11 +24,19 @@ The most interesting parts of gnome-app-list are:
      [Flathub](https://flathub.org)
   * `gnome-apps.txt`: [GNOME Circle](https://gitlab.gnome.org/Teams/Circle/)
      apps
-  * `other-apps.txt`: a manually curated set of apps (currently empty) 
+  * `other-apps.txt`: a manually curated set of apps (currently empty)
+  * `web-apps.json`: FOSS web applications
+  * `web-apps-proprietary.json`: proprietary web applications
+  * `web-apps-cache.json`: pre-fetched metadata for `web-apps.json`
+  * `web-apps-proprietary-cache.json`: pre-fetched metadata for `web-apps-proprietary.json`
 * `/scripts`:
   * `update_apps.py`: updates the app lists based on data from Flathub and GNOME
     Circle
   * `xml_generator.py`: generates AppStream data from the app lists
+  * `update_web_apps.py`: fetches metadata from the web for web app entries and
+    writes the in-tree cache files
+  * `generate_web_apps.py`: generates AppStream data from the in-tree cache files
+    (no network access; run by the build system)
 
 ## App tagging
 
@@ -60,6 +68,48 @@ To update `data/gnome-apps.txt` run in the project root:
 ```
 python3 ./scripts/update_apps.py gnome
 ```
+
+## Web applications
+
+FOSS web apps are listed in `data/web-apps.json` and proprietary ones in
+`data/web-apps-proprietary.json`. Each entry has the following fields:
+
+```json
+{
+  "url": "https://example.com/",
+  "license": "Apache-2.0",
+  "oars": { "social-info": "mild" },
+  "categories": ["Network", "Chat"]
+}
+```
+
+`oars` and `categories` are optional. Valid OARS keys are defined at
+<https://hughsie.github.io/oars/>. Valid AppStream category names are defined
+at <https://specifications.freedesktop.org/menu-spec/latest/apa.html>.
+
+The JSON files alone are not sufficient for the build: the build system uses
+pre-fetched metadata stored in `data/web-apps-cache.json` and
+`data/web-apps-proprietary-cache.json`. These cache files must be regenerated
+whenever the corresponding JSON input files are modified.
+
+### Adding or updating a web app
+
+1. Edit `data/web-apps.json` (or `data/web-apps-proprietary.json`).
+2. Regenerate the cache (requires internet access):
+   ```
+   python3 ./scripts/update_web_apps.py data/web-apps.json data/web-apps-cache.json
+   ```
+   For the proprietary list:
+   ```
+   python3 ./scripts/update_web_apps.py data/web-apps-proprietary.json data/web-apps-proprietary-cache.json
+   ```
+   Pass `--no-localize` for a faster run without fetching translated content.
+   All URLs are always re-fetched so that updated server content is picked up.
+3. Review the updated cache file (icon URL, summary, categories).
+4. Commit both the JSON input file and the updated cache file.
+
+If the cache is out of date with respect to the input JSON, the build will
+fail with an error message showing the exact command to run.
 
 ## How to test
 

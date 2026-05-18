@@ -21,3 +21,25 @@ if have_bash
     )
   endforeach
 endif
+
+appstreamcli = find_program('appstreamcli', required: false)
+if appstreamcli.found()
+  if get_option('foss_web_apps')
+    test(
+      'appstreamcli web-apps',
+      appstreamcli,
+      args: ['validate', '--no-net', foss_web_apps_xml.full_path()],
+      depends: foss_web_apps_xml,
+      suite: ['no-valgrind'],
+    )
+  endif
+  if get_option('proprietary_web_apps')
+    test(
+      'appstreamcli web-apps-proprietary',
+      appstreamcli,
+      args: ['validate', '--no-net', proprietary_web_apps_xml.full_path()],
+      depends: proprietary_web_apps_xml,
+      suite: ['no-valgrind'],
+    )
+  endif
+endif

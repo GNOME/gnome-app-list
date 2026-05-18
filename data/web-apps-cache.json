@@ -1,0 +1,394 @@
+{
+  "input_checksum": "b2e82de65cb4b77dbb6ad214f79f45ae0d11fd1e7b2c0f9eb10650115bc66a33",
+  "apps": [
+    {
+      "name": "Pinafore for Mastodon",
+      "summary": "An alternative web client for Mastodon, focused on speed and simplicity",
+      "adaptive": true,
+      "categories": [
+        "Network",
+        "Chat"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://pinafore.social/icon-512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "screenshots": [
+        {
+          "src": "https://pinafore.social/screenshot-540-720-1.png",
+          "width": "540",
+          "height": "720"
+        },
+        {
+          "src": "https://pinafore.social/screenshot-540-720-2.png",
+          "width": "540",
+          "height": "720"
+        },
+        {
+          "src": "https://pinafore.social/screenshot-540-720-3.png",
+          "width": "540",
+          "height": "720"
+        }
+      ],
+      "url": "https://pinafore.social/",
+      "license": "AGPL-3.0-only",
+      "oars": {
+        "social-audio": "intense",
+        "social-info": "none"
+      }
+    },
+    {
+      "name": "Squoosh",
+      "summary": "Squoosh is the ultimate image optimizer that allows you to compress and compare ",
+      "adaptive": true,
+      "categories": [
+        "Graphics"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://squoosh.app/c/icon-large-cb438cac.png",
+        "width": "1024",
+        "height": "1024"
+      },
+      "screenshots": [
+        {
+          "src": "https://squoosh.app/c/screenshot1-0ff68546.png",
+          "width": "540",
+          "height": "720"
+        },
+        {
+          "src": "https://squoosh.app/c/screenshot2-1f78c4db.jpg",
+          "width": "540",
+          "height": "720"
+        },
+        {
+          "src": "https://squoosh.app/c/screenshot3-c1e02216.jpg",
+          "width": "540",
+          "height": "720"
+        },
+        {
+          "src": "https://squoosh.app/c/screenshot4-3a706c3c.png",
+          "width": "1024",
+          "height": "593"
+        },
+        {
+          "src": "https://squoosh.app/c/screenshot5-ea50826f.jpg",
+          "width": "1024",
+          "height": "593"
+        },
+        {
+          "src": "https://squoosh.app/c/screenshot6-0168d284.jpg",
+          "width": "1024",
+          "height": "593"
+        }
+      ],
+      "url": "https://squoosh.app/",
+      "license": "Apache-2.0",
+      "oars": {
+        "social-info": "moderate"
+      }
+    },
+    {
+      "name": "Excalidraw",
+      "summary": "Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketc",
+      "adaptive": true,
+      "categories": [
+        "Graphics",
+        "Office"
+      ],
+      "locale": {},
+      "description": "Excalidraw is a whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.",
+      "icon": {
+        "src": "https://excalidraw.com/android-chrome-192x192.png",
+        "width": "192",
+        "height": "192"
+      },
+      "screenshots": [
+        {
+          "src": "https://excalidraw.com/screenshots/virtual-whiteboard.png",
+          "width": "462",
+          "height": "945"
+        },
+        {
+          "src": "https://excalidraw.com/screenshots/wireframe.png",
+          "width": "462",
+          "height": "945"
+        },
+        {
+          "src": "https://excalidraw.com/screenshots/illustration.png",
+          "width": "462",
+          "height": "945"
+        },
+        {
+          "src": "https://excalidraw.com/screenshots/shapes.png",
+          "width": "462",
+          "height": "945"
+        },
+        {
+          "src": "https://excalidraw.com/screenshots/collaboration.png",
+          "width": "462",
+          "height": "945"
+        },
+        {
+          "src": "https://excalidraw.com/screenshots/export.png",
+          "width": "462",
+          "height": "945"
+        }
+      ],
+      "url": "https://excalidraw.com/",
+      "license": "MIT",
+      "oars": {
+        "social-info": "moderate"
+      }
+    },
+    {
+      "name": "Element",
+      "summary": "Secure and decentralised messaging and collaboration using Matrix",
+      "adaptive": true,
+      "categories": [
+        "Network",
+        "Chat"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://app.element.io/vector-icons/1024.png",
+        "width": "1024",
+        "height": "1024"
+      },
+      "url": "https://app.element.io/",
+      "license": "Apache-2.0",
+      "oars": {
+        "social-info": "mild"
+      }
+    },
+    {
+      "name": "Chitchatter",
+      "summary": "A peer-to-peer chat app that is serverless, decentralized, and ephemeral",
+      "adaptive": true,
+      "categories": [
+        "Network",
+        "Chat"
+      ],
+      "locale": {},
+      "description": "This is a communication tool that is free, open source, and designed for simplicity and security. All communication between you and your online peers is encrypted. There is no trace of your conversation once you leave.",
+      "icon": {
+        "src": "https://chitchatter.im/logo512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "screenshots": [
+        {
+          "src": "https://chitchatter.im/screenshots/home-desktop.png",
+          "width": "2160",
+          "height": "1620"
+        },
+        {
+          "src": "https://chitchatter.im/screenshots/public-room-desktop.png",
+          "width": "2160",
+          "height": "1620"
+        },
+        {
+          "src": "https://chitchatter.im/screenshots/public-room-desktop-with-video.png",
+          "width": "2160",
+          "height": "1620"
+        },
+        {
+          "src": "https://chitchatter.im/screenshots/home-mobile-dark.png",
+          "width": "750",
+          "height": "1334"
+        },
+        {
+          "src": "https://chitchatter.im/screenshots/home-mobile-light.png",
+          "width": "750",
+          "height": "1334"
+        },
+        {
+          "src": "https://chitchatter.im/screenshots/public-room-mobile.png",
+          "width": "750",
+          "height": "1334"
+        }
+      ],
+      "url": "https://chitchatter.im/",
+      "license": "MIT",
+      "oars": {
+        "social-chat": "intense",
+        "social-info": "moderate"
+      }
+    },
+    {
+      "name": "Booksie",
+      "summary": "An open catalog of free picture storybooks for children instantly available for ",
+      "adaptive": true,
+      "categories": [
+        "Education"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://www.booksie.org/assets/splash.png",
+        "width": "512",
+        "height": "512"
+      },
+      "screenshots": [
+        {
+          "src": "https://www.booksie.org/assets/screenshots/1.webp"
+        },
+        {
+          "src": "https://www.booksie.org/assets/screenshots/2.webp"
+        },
+        {
+          "src": "https://www.booksie.org/assets/screenshots/3.webp"
+        },
+        {
+          "src": "https://www.booksie.org/assets/screenshots/4.webp"
+        },
+        {
+          "src": "https://www.booksie.org/assets/screenshots/5.webp"
+        },
+        {
+          "src": "https://www.booksie.org/assets/screenshots/6.webp"
+        }
+      ],
+      "url": "https://www.booksie.org/",
+      "license": "GPL-3.0-only",
+      "oars": {}
+    },
+    {
+      "name": "Morse Code Translator",
+      "summary": "Translate Morse code to text and text to Morse code instantly with our online Mo",
+      "adaptive": true,
+      "categories": [
+        "Utility"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://morsecodetranslator.com/assets/icons/android-chrome-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "url": "https://morsedecoder.com/",
+      "license": "MIT",
+      "oars": {}
+    },
+    {
+      "name": "Splittypie - Easy expense splitting",
+      "summary": "SplittyPie is a free app that helps you with sharing expenses with your friends.",
+      "adaptive": true,
+      "categories": [
+        "Office",
+        "Finance"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://splittypie.com/assets/icons/android/icon-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "url": "https://splittypie.com",
+      "license": "MIT",
+      "oars": {}
+    },
+    {
+      "name": "MobiTUKI English-Swahili Dictionary",
+      "summary": "TUKI, the best available English to Swahili dictionary with 16000+ entries, incl",
+      "adaptive": true,
+      "categories": [
+        "Education"
+      ],
+      "locale": {},
+      "description": "The best available English-Swahili-English dictionary with 30000+ entries, including idioms, derivatives, etymology and examples.",
+      "icon": {
+        "src": "https://swahili-dictionary.com/static/img/favicon/android-chrome-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "screenshots": [
+        {
+          "src": "https://swahili-dictionary.com/static/img/screenshot1.png",
+          "width": "758",
+          "height": "1266"
+        },
+        {
+          "src": "https://swahili-dictionary.com/static/img/screenshot2.png",
+          "width": "758",
+          "height": "1266"
+        }
+      ],
+      "url": "https://swahili-dictionary.com/",
+      "license": "Apache-2.0",
+      "oars": {}
+    },
+    {
+      "name": "PixelCraft",
+      "summary": "A pixel Art & Animation Creation Tool Built using HTML5 Canvas. It is a Progress",
+      "adaptive": true,
+      "categories": [
+        "Graphics"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://pixelcraft.web.app/icons/logo.png",
+        "width": "512",
+        "height": "512"
+      },
+      "url": "https://pixelcraft.web.app",
+      "license": "MIT",
+      "oars": {}
+    },
+    {
+      "name": "Money Tracker",
+      "summary": "Personal finances tracking web app",
+      "adaptive": true,
+      "categories": [
+        "Office",
+        "Finance"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://moneytracker.cc/android-icon-192x192.png",
+        "width": "192",
+        "height": "192"
+      },
+      "url": "https://moneytracker.cc/",
+      "license": "MIT",
+      "oars": {}
+    },
+    {
+      "name": "themer",
+      "summary": "themer takes a set of colors and generates editor themes, terminal themes, theme",
+      "adaptive": true,
+      "categories": [
+        "Development",
+        "Utility"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://themer.dev/icon-512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "url": "https://themer.dev",
+      "license": "MIT",
+      "oars": {}
+    },
+    {
+      "name": "Lofimusic",
+      "summary": "Listen to Lo-fi music radio Taiki on the Lofimusic open-source player: an instal",
+      "adaptive": true,
+      "categories": [
+        "Audio",
+        "Music"
+      ],
+      "locale": {},
+      "icon": {
+        "src": "https://lofimusic.app/web/logo.png",
+        "width": "192",
+        "height": "192"
+      },
+      "url": "https://lofimusic.app/",
+      "license": "MIT",
+      "oars": {}
+    }
+  ]
+}

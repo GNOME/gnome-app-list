@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://twitter.com/",
+    "license": "LicenseRef-proprietary",
+    "oars": { "social-info": "intense", "social-audio": "moderate" },
+    "categories": ["Network", "Chat"]
+  },
+  {
+    "url": "https://www.photopea.com/",
+    "license": "LicenseRef-proprietary",
+    "oars": { "social-info": "intense" },
+    "categories": ["Graphics"]
+  },
+  {
+    "url": "https://todoist.com/",
+    "license": "LicenseRef-proprietary",
+    "oars": { "social-info": "moderate" },
+    "categories": ["Office"]
+  },
+{
+    "url": "https://www.pinterest.com/",
+    "license": "LicenseRef-proprietary",
+    "oars": {
+      "drugs-alcohol": "mild",
+      "sex-nudity": "mild",
+      "sex-themes": "mild",
+      "social-chat": "intense",
+      "social-info": "moderate",
+      "money-advertising": "intense"
+    },
+    "categories": ["Graphics"]
+  }
+]

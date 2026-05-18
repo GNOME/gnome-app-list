@@ -1,0 +1,13 @@
+option(
+  'foss_web_apps',
+  type: 'boolean',
+  value: true,
+  description: 'Build and install FOSS web application AppStream metadata',
+)
+
+option(
+  'proprietary_web_apps',
+  type: 'boolean',
+  value: true,
+  description: 'Build and install proprietary web application AppStream metadata',
+)

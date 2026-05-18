@@ -38,4 +38,26 @@ if xmllint.found()
   )
 endif
 
+if get_option('foss_web_apps')
+  foss_web_apps_xml = custom_target(
+    'org.gnome.WebApps.xml',
+    output: 'org.gnome.WebApps.xml',
+    input: ['data/web-apps.json', 'data/web-apps-cache.json'],
+    command: [prog_python, files('scripts/generate_web_apps.py'), '@INPUT0@', '@INPUT1@', '@OUTPUT@'],
+    install: true,
+    install_dir: swcatalogdir,
+  )
+endif
+
+if get_option('proprietary_web_apps')
+  proprietary_web_apps_xml = custom_target(
+    'org.gnome.WebApps.Proprietary.xml',
+    output: 'org.gnome.WebApps.Proprietary.xml',
+    input: ['data/web-apps-proprietary.json', 'data/web-apps-proprietary-cache.json'],
+    command: [prog_python, files('scripts/generate_web_apps.py'), '@INPUT0@', '@INPUT1@', '@OUTPUT@'],
+    install: true,
+    install_dir: swcatalogdir,
+  )
+endif
+
 subdir('tests')
