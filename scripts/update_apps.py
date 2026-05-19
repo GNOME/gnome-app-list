@@ -7,7 +7,6 @@ import time
 import argparse
 from pathlib import Path
 
-
 FLATHUB_URL = "flathub.org"
 JSON_FLATHUB_PATH = "/api/v2/quality-moderation/" "passing-apps?page={0}&page_size=25"
 LOCAL_FLATHUB_FILE = "data/flathub-apps.txt"
