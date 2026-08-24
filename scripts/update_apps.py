@@ -217,7 +217,8 @@ def read_existing_IDs(
 def get_gnome_ids() -> list[str] | None:
     gnome_IDs: list[str] = []
     connection = http.client.HTTPSConnection(GNOME_URL)
-    connection.request("GET", JSON_GNOME_PATH)
+    headers = {"User-Agent": "gnome-app-list-updater"}
+    connection.request("GET", JSON_GNOME_PATH, headers=headers)
     response = connection.getresponse()
     if response.reason != "OK":
         connection.close()
